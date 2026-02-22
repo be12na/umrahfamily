@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a843;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8a84e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="kaabaBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Kaaba Icon -->
+  <g transform="translate(10, 5)">
+    <!-- Kaaba body - 3D perspective -->
+    <!-- Front face -->
+    <polygon points="15,18 55,18 55,68 15,68" fill="url(#kaabaBody)" stroke="#333" stroke-width="0.5"/>
+    <!-- Right face (perspective) -->
+    <polygon points="55,18 75,10 75,60 55,68" fill="#222" stroke="#333" stroke-width="0.5"/>
+    <!-- Top face -->
+    <polygon points="15,18 35,10 75,10 55,18" fill="#333" stroke="#444" stroke-width="0.5"/>
+    
+    <!-- Gold band (Kiswah) - front -->
+    <rect x="15" y="30" width="40" height="5" fill="url(#goldGrad)"/>
+    <!-- Gold band - side -->
+    <polygon points="55,30 75,22.5 75,27.5 55,35" fill="#b8962e"/>
+    
+    <!-- Door (Bab) -->
+    <rect x="28" y="40" width="14" height="22" rx="7" ry="4" fill="url(#goldGrad)" stroke="#a88a30" stroke-width="0.5"/>
+    <rect x="30" y="42" width="10" height="18" rx="5" ry="3" fill="#8b7320"/>
+    
+    <!-- Gold decorative elements on front -->
+    <circle cx="22" cy="44" r="1.5" fill="#c8a84e" opacity="0.7"/>
+    <circle cx="22" cy="52" r="1.5" fill="#c8a84e" opacity="0.7"/>
+    <circle cx="22" cy="60" r="1.5" fill="#c8a84e" opacity="0.7"/>
+    <circle cx="48" cy="44" r="1.5" fill="#c8a84e" opacity="0.7"/>
+    <circle cx="48" cy="52" r="1.5" fill="#c8a84e" opacity="0.7"/>
+    <circle cx="48" cy="60" r="1.5" fill="#c8a84e" opacity="0.7"/>
+  </g>
+  
+  <!-- Text: Umrah -->
+  <text x="95" y="42" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="800" fill="#1a1a2e">
+    Umrah
+  </text>
+  <!-- Text: Family -->
+  <text x="195" y="42" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="800" fill="#0d6e3f">
+    Family
+  </text>
+  
+  <!-- Tagline -->
+  <text x="95" y="60" font-family="'Poppins', Arial, sans-serif" font-size="9" font-weight="400" fill="#6c757d" letter-spacing="2.5">
+    MITRA PERJALANAN UMRAH TERPERCAYA
+  </text>
+</svg>
