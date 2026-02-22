@@ -1003,9 +1003,8 @@ img {
     .partner-logo img {
         max-width: 40px;
         max-height: 18px;
+        }
     }
-}
-}
 
 /* --- CTA Section --- */
 .section-cta {
