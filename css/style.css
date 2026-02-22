@@ -973,6 +973,40 @@ img {
     white-space: nowrap;
 }
 
+/* Partner logo images */
+.partner-logo img {
+    max-width: 90px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .partner-logo {
+        padding: 15px 20px;
+        margin: 0 8px;
+    }
+    .partner-logo img {
+        max-width: 60px;
+        max-height: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partner-logo {
+        padding: 8px 8px;
+        margin: 0 4px;
+    }
+    .partner-logo img {
+        max-width: 40px;
+        max-height: 18px;
+    }
+}
+}
+
 /* --- CTA Section --- */
 .section-cta {
     position: relative;
